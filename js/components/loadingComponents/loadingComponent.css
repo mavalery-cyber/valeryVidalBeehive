@@ -1,0 +1,15 @@
+.loadingComponent{
+    background-color:  aquamarine;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.loadingComponent_title{
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+}
