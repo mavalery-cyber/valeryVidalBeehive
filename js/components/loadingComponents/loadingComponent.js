@@ -1,11 +1,7 @@
-class loadingComponent extends Component {
-    constructor(parent) {
-        super(parent);
+class LoadingComponent extends Component {
+    constructor(parent, appManager) {
+        super(parent, appManager);
         this.container.classList.add('loadingComponent');
-
-        this.title = document.createElement('p');
-        this.title.innerHTML = 'Loading...';
-        this.title.classList.add('loadingComponent_title');
-        this.container.appendChild(this.title);
+        this.title = p({ 'innerHTML': 'Loading...', 'className': 'loadingComponent_title' }, this.container);
     }
 }

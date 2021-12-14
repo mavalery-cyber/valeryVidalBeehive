@@ -1,5 +1,5 @@
-.loadingComponent{
-    background-color:  aquamarine;
+.loadingComponent {
+    background-color: var(--main-background-color);
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -8,8 +8,8 @@
     align-items: center;
 }
 
-.loadingComponent_title{
+.loadingComponent_title {
     font-size: 40px;
     font-weight: bold;
-    color: black;
+    color:black;
 }

@@ -1,13 +1,34 @@
 class User {
-    constructor(id, email, name, username, isOwner){
+    constructor(id, name, email, username, isOwner, avatar, phone) {
         this.id = id;
+        this.name = name;
         this.email = email;
-        this.name = name; 
-        this.userName = username; 
-        this. isOwner = isOwner;
+        this.username = username;
+        this.isOwner = isOwner
+        this.avatar = avatar;
+        this.phone = phone;
         this.posts = [];
+        this.albums = [];
+        this.todos = [];
     }
-    addPost(post){
+
+    addNewPost(post) {
+        this.posts.unshift(post);
+    }
+
+    addNewTodo(todo) {
+        this.todos.unshift(todo);
+    }
+
+    addPost(post) {
         this.posts.push(post);
+    }
+
+    addAlbum(album) {
+        this.albums.push(album);
+    }
+
+    addTodo(todo) {
+        this.todos.push(todo);
     }
 }

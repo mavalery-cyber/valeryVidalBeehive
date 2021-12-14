@@ -1,0 +1,19 @@
+.usersComponent {
+    background-color: var(--main-background-color);
+    width: 100%;
+    height: 100%;
+    overflow:scroll;
+    z-index: var(--usersComponent-z);
+    position: fixed;
+}
+
+.usersComponent_users:first-child {
+    margin-top: var(--space-bewteen-users);
+}
+
+.usersComponent_users {
+    width: 100%;
+    height: 150px;
+    background-color: var(--user-background-color);
+    margin-bottom: var(--space-bewteen-users);
+}

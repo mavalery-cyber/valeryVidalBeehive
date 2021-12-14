@@ -1,0 +1,38 @@
+.todoComponent {
+    background-color: var(--user-background-color);
+    width: calc(100% - (var(--space-bewteen-users) * 2));
+    height: auto;
+    margin-bottom: var(--space-bewteen-users);
+    margin-left: var(--space-bewteen-users);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: var(--user-border-radius);
+    border-color: var(--user-border-color);
+    border-width: 1px;
+    border-style: solid;
+}
+
+.todoComponent_title {
+    font-size: 18px;
+    user-select: none;
+    margin: 10px 10px 5px 10px;
+}
+
+.todoComponent_checkButton {
+    min-width: 20px;
+    height: 20px;
+    margin-left: 5px;
+    border-radius: 50%;
+    background-color: var(--todo-uncompleted-color1);
+    border-color: var(--todo-uncompleted-color2);
+    border-width: 2px;
+    border-style: solid;
+}
+
+.todoComponent_checkButton_completed {
+    background-color: var(--todo-completed-color1);
+    border-color: var(--todo-completed-color2);
+    border-width: 2px;
+    border-style: solid;
+}

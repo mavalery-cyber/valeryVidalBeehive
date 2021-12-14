@@ -1,0 +1,80 @@
+.userComponent {
+    background-color: var(--user-background-color);
+    width: calc(100% - (var(--space-bewteen-users) * 2));
+    height: var(--user-height);
+    margin-bottom: var(--space-bewteen-users);
+    margin-left: var(--space-bewteen-users);
+    display: flex;
+    flex-direction: row;
+    border-radius: var(--user-border-radius);
+    border-color: var(--user-border-color);
+    border-width: 1px;
+    border-style: solid;
+}
+
+.userComponent:first-child {
+    margin-top: var(--space-bewteen-users);
+}
+
+.userComponent_column1 {
+    width: calc(var(--user-height));
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.userComponent_column2 {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: flex-start;
+    margin: 10px 0px 0px 0px;
+    flex-grow: 1;
+}
+
+.userComponent_column3 {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-around;
+
+}
+
+.userComponent_avatar {
+    width: calc(var(--user-height) - 20px);
+    height: calc(var(--user-height) - 20px);
+    object-fit: cover;
+    border-radius: var(--user-border-radius);
+    border-color: var(--user-border-color);
+    border-width: 1px;
+    border-style: solid;
+    user-select: none;
+}
+
+.userComponent_name {
+    font-size: 30px;
+    font-weight: bold;
+    user-select: none;
+}
+
+.userComponent_email {
+    font-size: 16px;
+    user-select: none;
+    user-select: none;
+}
+
+.userComponent_username {
+    font-size: 16px;
+    user-select: none;
+    user-select: none;
+}
+
+.userComponent_phone {
+    font-size: 16px;
+    user-select: none;
+    user-select: none;
+}

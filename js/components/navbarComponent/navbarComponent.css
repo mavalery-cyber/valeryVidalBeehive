@@ -1,0 +1,29 @@
+.navbarComponent {
+    width: 100vw;
+    height: var(--navbar-height);
+    background-color: var(--primary-color);
+    position: fixed;
+    top: 0px;
+    z-index: var(--navbar-z);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbarComponent_backButton {
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+}
+
+.navbarComponent_icon {
+    width: 50px;
+    height: auto;
+}
+
+.navbarComponent_addButton {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}

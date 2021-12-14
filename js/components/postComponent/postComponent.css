@@ -1,0 +1,54 @@
+.postComponent {
+    background-color: var(--user-background-color);
+    width: calc(100% - (var(--space-bewteen-users) * 2));
+    height: auto;
+    margin-bottom: var(--space-bewteen-users);
+    margin-left: var(--space-bewteen-users);
+    display: flex;
+    flex-direction: column;
+    border-radius: var(--user-border-radius);
+    border-color: var(--user-border-color);
+    border-width: 1px;
+    border-style: solid;
+}
+
+.postComponent_title {
+    font-size: 30px;
+    font-weight: bold;
+    user-select: none;
+    margin: 10px 10px 5px 10px;
+}
+
+.postComponent_body {
+    font-size: 16px;
+    user-select: none;
+    user-select: none;
+    margin: 0px 10px 10px 10px;
+}
+
+.postComponent_commentContainer {
+    width: 100%;
+    height: auto;
+    background-color: var(--commentsContainer-background-color);
+    display: flex;
+    flex-direction: column;
+    border-radius: 0 0 var(--user-border-radius) var(--user-border-radius);
+    padding-top: 5px;
+}
+
+.postComponent_button {
+    margin: 10px 10px 10px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background-color: var(--main-background-color);
+    height: 40px;
+    font-weight: bold;
+    border-color: var(--main-background-color);
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}

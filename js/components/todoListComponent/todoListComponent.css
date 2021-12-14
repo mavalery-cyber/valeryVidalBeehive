@@ -1,0 +1,19 @@
+.todoListComponent {
+    background-color: var(--main-background-color);
+    width: 100%;
+    height: 100%;
+    overflow:scroll;
+    z-index: var(--postListComponent-z);
+    position: fixed;
+}
+
+.todoListComponent_post:first-child {
+    margin-top: var(--space-bewteen-users);
+}
+
+.todoListComponent_post {
+    width: 100%;
+    height: 150px;
+    background-color: rgb(253, 220, 86);
+    margin-bottom: var(--space-bewteen-users);
+}

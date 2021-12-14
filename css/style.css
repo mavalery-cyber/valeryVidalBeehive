@@ -1,0 +1,28 @@
+:root {
+    /**NavBar*/
+    --primary-color: #006DFF;
+    --secondary-color: #f50057;
+
+    --main-background-color: white;
+    --user-background-color: #E8E8E8;
+    --commentsContainer-background-color: #d3d3d3;
+    --comment-background-color: #f0f0f0;
+
+    --navbar-z: 10;
+    --space-bewteen-users: 5px;
+
+    --usersComponent-z:1;
+    --fade-z:2;
+    --postListComponent-z:3;
+    --formComponent-z:4;
+    --fade-background-color:rgba(0, 0, 0, 0.5);
+
+    --navbar-height: 80px;
+    --user-height: 120px;
+    --user-border-radius: 10px;
+    --user-border-color: rgb(209, 209, 209);
+    --todo-completed-color1: #b3ffff;
+    --todo-completed-color2: #39b0ff;
+    --todo-uncompleted-color1: #ffd6ce;
+    --todo-uncompleted-color2: #ff593b;
+}

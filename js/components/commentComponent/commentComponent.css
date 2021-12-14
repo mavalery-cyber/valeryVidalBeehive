@@ -1,0 +1,29 @@
+.commentComponent {
+    width: calc(100% - (var(--space-bewteen-users) * 2));
+    height: auto;
+    background-color: var(--comment-background-color);
+    margin-bottom: var(--space-bewteen-users);
+    margin-left: var(--space-bewteen-users);
+    display: flex;
+    flex-direction: column;
+    border-radius: var(--user-border-radius);
+    border-color: var(--user-border-color);
+    border-width: 1px;
+    border-style: solid;
+}
+
+.commentComponent_name {
+    color: var(--primary-color);
+    font-size: 20px;
+    font-weight: bold;
+    user-select: none;
+    user-select: none;
+    margin: 10px 10px 5px 10px;
+}
+
+.commentComponent_body {
+    font-size: 16px;
+    user-select: none;
+    user-select: none;
+    margin: 0px 10px 10px 10px;
+}

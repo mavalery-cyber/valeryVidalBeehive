@@ -1,0 +1,29 @@
+.mainComponent {
+    background-color: var(--main-background-color);
+    width: 100vw;
+    height: 100vh;
+}
+
+.mainComponent_title {
+    font-size: 40px;
+    font-weight: bold;
+    color:black;
+}
+
+.mainComponent_componentsContainer {
+    position: fixed;
+    height: calc(100vh - var(--navbar-height));
+    width: 100vw;
+    top: var(--navbar-height);
+    background-color: var(--main-background-color);
+}
+
+.mainComponent_fade {
+    position: fixed;
+    height: calc(100vh - var(--navbar-height));
+    width: 100vw;
+    top: var(--navbar-height);
+    background-color: var(--fade-background-color);
+    pointer-events: none;
+    z-index: var(--fade-z);
+}
